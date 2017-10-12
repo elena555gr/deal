@@ -18,14 +18,14 @@ public class Deal {
 	public Product[] getProducts(){
 		return products;
 	}
-	
+	//Constructor
 	public Deal(Party seller, Party buyer, Product[] products){
 		this.seller = seller;
 		this.buyer = buyer;
 		this.products = products;
 		
 	}
-	
+	//Method
 	public double getSum(){
 		double rez = 0;
 		for (Product pr : products){
